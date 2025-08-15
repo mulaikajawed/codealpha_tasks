@@ -1,0 +1,26 @@
+===== Dataset Shape =====
+(254, 9)
+
+===== Columns =====
+['Order ID', 'Date', 'Product', 'Price', 'Quantity', 'Purchase Type', 'Payment Method', 'Manager', 'City']
+
+===== Data Types =====
+{'Order ID': dtype('int64'), 'Date': dtype('O'), 'Product': dtype('O'), 'Price': dtype('float64'), 'Quantity': dtype('float64'), 'Purchase Type': dtype('O'), 'Payment Method': dtype('O'), 'Manager': dtype('O'), 'City': dtype('O')}
+
+===== Null Values =====
+{'Order ID': 0, 'Date': 0, 'Product': 0, 'Price': 0, 'Quantity': 0, 'Purchase Type': 0, 'Payment Method': 0, 'Manager': 0, 'City': 0}
+
+===== Summary Statistics =====
+                count unique                 top freq  ...       25%      50%       75%      max
+Order ID        254.0    NaN                 NaN  NaN  ...  10520.25  10583.5  10649.75  10713.0
+Date              254     53          09/11/2022    5  ...       NaN      NaN       NaN      NaN
+Product           254      5  Chicken Sandwiches   52  ...       NaN      NaN       NaN      NaN
+Price           254.0    NaN                 NaN  NaN  ...      3.49     4.99      9.95    29.05
+Quantity        254.0    NaN                 NaN  NaN  ...    201.01   538.88    677.44   754.43
+Purchase Type     254      3             Online   107  ...       NaN      NaN       NaN      NaN
+Payment Method    254      3         Credit Card  120  ...       NaN      NaN       NaN      NaN
+Manager           254     14         Tom Jackson   74  ...       NaN      NaN       NaN      NaN
+City              254      5              London   75  ...       NaN      NaN       NaN      NaN
+
+[9 rows x 11 columns]
+
